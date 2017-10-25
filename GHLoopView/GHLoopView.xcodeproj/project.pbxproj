@@ -39,6 +39,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4463ECE1FA0CBF300868C27 /* GHLoopView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GHLoopView;
+			sourceTree = "<group>";
+		};
 		E44AB6161F9EC34400F89BC3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +65,7 @@
 		E44AB6211F9EC34500F89BC3 /* GHLoopView */ = {
 			isa = PBXGroup;
 			children = (
+				E4463ECE1FA0CBF300868C27 /* GHLoopView */,
 				E44AB6251F9EC34500F89BC3 /* AppDelegate.h */,
 				E44AB6261F9EC34500F89BC3 /* AppDelegate.m */,
 				E44AB6281F9EC34500F89BC3 /* ViewController.h */,
@@ -311,6 +319,7 @@
 				E44AB6381F9EC34500F89BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
