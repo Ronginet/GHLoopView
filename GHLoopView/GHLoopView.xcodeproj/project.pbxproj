@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4463ED11FA0CC5B00868C27 /* GHLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4463ED01FA0CC5B00868C27 /* GHLoopView.m */; };
+		E4463ED41FA0CD2E00868C27 /* GHLoopViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E4463ED31FA0CD2E00868C27 /* GHLoopViewLayout.m */; };
+		E4463ED71FA0CFC600868C27 /* GHLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4463ED61FA0CFC600868C27 /* GHLoopViewCell.m */; };
 		E44AB6241F9EC34500F89BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AB6231F9EC34500F89BC3 /* main.m */; };
 		E44AB6271F9EC34500F89BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AB6261F9EC34500F89BC3 /* AppDelegate.m */; };
 		E44AB62A1F9EC34500F89BC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AB6291F9EC34500F89BC3 /* ViewController.m */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4463ECF1FA0CC5B00868C27 /* GHLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoopView.h; sourceTree = "<group>"; };
+		E4463ED01FA0CC5B00868C27 /* GHLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoopView.m; sourceTree = "<group>"; };
+		E4463ED21FA0CD2E00868C27 /* GHLoopViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoopViewLayout.h; sourceTree = "<group>"; };
+		E4463ED31FA0CD2E00868C27 /* GHLoopViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoopViewLayout.m; sourceTree = "<group>"; };
+		E4463ED51FA0CFC600868C27 /* GHLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLoopViewCell.h; sourceTree = "<group>"; };
+		E4463ED61FA0CFC600868C27 /* GHLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLoopViewCell.m; sourceTree = "<group>"; };
 		E44AB61F1F9EC34500F89BC3 /* GHLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44AB6231F9EC34500F89BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E44AB6251F9EC34500F89BC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +51,12 @@
 		E4463ECE1FA0CBF300868C27 /* GHLoopView */ = {
 			isa = PBXGroup;
 			children = (
+				E4463ECF1FA0CC5B00868C27 /* GHLoopView.h */,
+				E4463ED01FA0CC5B00868C27 /* GHLoopView.m */,
+				E4463ED51FA0CFC600868C27 /* GHLoopViewCell.h */,
+				E4463ED61FA0CFC600868C27 /* GHLoopViewCell.m */,
+				E4463ED21FA0CD2E00868C27 /* GHLoopViewLayout.h */,
+				E4463ED31FA0CD2E00868C27 /* GHLoopViewLayout.m */,
 			);
 			path = GHLoopView;
 			sourceTree = "<group>";
@@ -158,9 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4463ED41FA0CD2E00868C27 /* GHLoopViewLayout.m in Sources */,
+				E4463ED71FA0CFC600868C27 /* GHLoopViewCell.m in Sources */,
 				E44AB62A1F9EC34500F89BC3 /* ViewController.m in Sources */,
 				E44AB6271F9EC34500F89BC3 /* AppDelegate.m in Sources */,
 				E44AB6241F9EC34500F89BC3 /* main.m in Sources */,
+				E4463ED11FA0CC5B00868C27 /* GHLoopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
